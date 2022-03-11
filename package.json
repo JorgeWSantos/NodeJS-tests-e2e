@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-tests-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeWSantos/NodeJS-tests-e2e.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeWSantos/NodeJS-tests-e2e/issues"
+  },
+  "homepage": "https://github.com/JorgeWSantos/NodeJS-tests-e2e#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
